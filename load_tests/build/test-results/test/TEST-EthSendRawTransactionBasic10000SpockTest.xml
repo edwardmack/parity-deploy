@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="EthSendRawTransactionBasic10000SpockTest" tests="2" skipped="1" failures="1" errors="0" timestamp="2018-06-06T19:39:12" hostname="emack-Oryx-Pro" time="79.051">
+  <properties/>
+  <testcase name="Submit 100 Transactions" classname="EthSendRawTransactionBasic10000SpockTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="Submit 10k Transactions" classname="EthSendRawTransactionBasic10000SpockTest" time="79.051">
+    <failure message="groovy.lang.MissingPropertyException: No such property: to for class: EthSendRawTransactionBasic10000SpockTest" type="groovy.lang.MissingPropertyException">groovy.lang.MissingPropertyException: No such property: to for class: EthSendRawTransactionBasic10000SpockTest
+	at EthSendRawTransactionBasic10000SpockTest.getResults(EthSendRawTransactionBasic10000SpockTest.groovy:132)
+	at EthSendRawTransactionBasic10000SpockTest.Submit 10k Transactions(EthSendRawTransactionBasic10000SpockTest.groovy:112)
+</failure>
+  </testcase>
+  <system-out><![CDATA[Transactions submitted in 35023 ms with 0 errors
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
